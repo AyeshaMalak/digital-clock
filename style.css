@@ -1,0 +1,63 @@
+/* General reset for margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body styles */
+body {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    color: #fff;
+}
+
+/* Clock container */
+.clock-container {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(145deg, #5e5e5e, #333);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Digital clock styling */
+.clock {
+    font-size: 80px;
+    font-family: 'Digital-7', sans-serif;
+    color: #00ff99;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    box-shadow: 0 5px 10px rgba(0, 255, 153, 0.5);
+    width: 300px;
+    margin: 0 auto;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-info {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Styling for the digits */
+#time {
+    display: inline-block;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    color: #00ff99;
+    font-size: 80px;
+    font-family: 'Digital-7', sans-serif;
+    letter-spacing: 8px;
+}
